@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>About NYSL</title>
+        <link rel="stylesheet" href="Styles/nysl_3.css">
+        <link rel="shortcut icon" href="images/nysl_logo.png"/>
+    </head>
+    <body>
+        <div class="grid">        
+        <h1 class="name">Northside Youth Soccer League</h1>
+            <div class="imagebanner3">
+               <img id="imagestyle3" src="images/design1_image1effect.jpg" alt="Boys playing soccer">
+               <img id="logostyle3" src="images/nysl_logo.png" alt="logo NYSL">
+            </div> 
+           <a id="top"></a>
+            <div class="nav">
+               <nav>
+                  <ul>
+                      <li><a class="navlink" href="index.html">Home</a></li>
+                      <li><a class="navlink" href="about.html">About NYSL</a></li>
+                      <li><a class="navlink" href="game_info.html">Game Information</a></li>
+                      <li><a class="navlink"  href="rules.html">Rules of Play &amp; Policies</a></li>
+                      <li id="activelink"><a class="navlink" href="registration.html">Registration</a></li>
+                      <li><a class="navlink"  href="contact.html">Contact</a></li>
+                  </ul>    
+               </nav>
+           </div>
+            <h2 class="navpag">Registration</h2>
+            <img id="logobackground" src="images/nysl_logo.png" alt="logo NYSL"> 
+            <div class="content">
+                <div class="form">
+                    <form  action="show_data.html" method="get">
+                    <div class="personalinfo"> 
+                         <div class="namesurname">
+                             <div class="playername">
+                                 <label for="playername"> <span class=stylegreen>First Name </span>
+                                     <input type="text" name="playername" id="playername" placeholder="Player's First Name" required>
+                                 </label>
+                             </div>
+                        <div class="playerlastname">
+                            <label for="playerlastname"><span class=stylegreen>Last Name</span>
+                                 <input type="text" name="playerlastname" id="playerlastname" placeholder="Player's Last Name" required/>
+                             </label>
+                        </div>
+                        </div>
+                        <div class="address1">
+                            <div class="street">
+                                <label for="street"><span class=stylegreen>Street Address</span>
+                                    <input type="text" name="street" id="street"/>
+                                </label>
+                            </div>
+                        <div class="cityzip">
+                            <div class="city">
+                                <label for="city" ><span class=stylegreen>City</span>
+                                    <input type="text" name="city" id="city" required>
+                                 </label>
+                            </div>
+                            <div class="zip">
+                                <label for="zip"><span class=stylegreen>Zip Code</span>
+                                    <input type="text" name="zip" id="zip" required>
+                                 </label>
+                            </div>
+                        </div>
+                        </div>
+                        <div class="birth">
+                            <div class="bday">
+                                <label for="birthday"><span class=stylegreen>Birth Date</span>
+                                    <input type="date" name="birthday" id="birthday" required>
+                                </label>
+                            </div>
+                            <div class="gender">
+                                <label for="gender"><span class=stylegreen>Gender</span>
+                                    <input type="radio" name="gender" id="gender" >Female
+                                    <input type="radio" name="gender" id="gender" >Male     
+                                </label>
+                            </div>
+                        </div>
+                        <div class="grade">
+                            <label class="labelgrade" for="grade"><span class=stylegreen>Grade</span>
+                                <input type="radio" name="grade" id="grade" >Pre-School
+                                <input type="radio" name="grade" id="grade">1<sup>st</sup>
+                                <input type="radio" name="grade" id="grade">2<sup>nd</sup>
+                                <input type="radio" name="grade" id="grade">3<sup>rd</sup>
+                                <input type="radio" name="grade" id="grade">4<sup>th</sup>
+                                <input type="radio" name="grade" id="grade">5<sup>th</sup>
+                            </label>
+                        </div>
+                        <div class="guardianname">
+                            <label for="parent"><span class=stylegreen>Parent/Guardian</span>
+                                <input type="text" name="parent" id="parent" required>
+                            </label>
+                        </div>
+                        <div class="conactguardian">
+                            <div class="phoneguardian">
+                                <label for="phone2"><span class=stylegreen>Phone number</span>
+                                    <input type="tel" name="phone" placeholder="(000) 000-0000" id="phone2" required>
+                                </label>
+                            </div>
+                            <div class="emailguardian">
+                                <label for="email2"><span class=stylegreen>Email address</span>
+                                    <input type="email" name="email" placeholder="name@domain.com" id="email2" required>
+                                </label>
+                            </div>
+                        </div>
+                </div>
+                <div class="questions">
+                    <p  class="greenques">Which elementary schools do you live near?</p>
+                        <div class="schoolsnear">
+                            <div class="firstschool">
+                                <label class="labelschool" for="firstschools">First Closest School</label>
+                                         <select class="selecfirst" name="firstschools">
+                                            <option value="AJ Katzenmaier" id="firstschools">AJ Katzenmaier</option>
+                                            <option value="Green bay" id="firstschools">Green bay</option>
+                                            <option value="Howard A Yeager" id="firstschools">Howard A Yeager</option>
+                                            <option value="Marjorie P Hart" id="firstschools">Marjorie P Hart</option>
+                                            <option value="North Elementary" id="firstschools">North Elementary</option>
+                                            <option value="South Elementary" id="firstschools">South Elementary</option>
+                                        </select>  
+                            </div>                
+                            <div class="secondschool">
+                                <label class="labelschool" for="secondschools">Second Closest School</label>
+                                        <select class="selectwo" name="secondschools">
+                                            <option value="AJ Katzenmaier" id="secondschools">AJ Katzenmaier</option>
+                                            <option value="Green bay" id="secondschools">Green bay</option>
+                                            <option value="Howard A Yeager" id="secondschools">Howard A Yeager</option>
+                                            <option value="Marjorie P Hart" id="secondschools">Marjorie P Hart</option>
+                                            <option value="North Elementary" id="secondschools">North Elementary</option>
+                                            <option value="South Elementary" id="secondschools">South Elementary</option>
+                                        </select>  
+                            </div> 
+                        </div>
+                    </div>
+                    <div class="positionplay">
+                        <p class="greenques">What position(s) do you normally play?<span class="nobold"> (check all that apply)</span></p>
+                            <label class="labelplay" for="position">
+                                <div class="aposition">
+                                    <input type="checkbox" name="positionplay" id="position" >Forward
+                                    <input type="checkbox" name="positionplay" id="position">Defense
+                                </div>
+                                <div class="bposition">
+                                    <input type="checkbox" name="positionplay" id="position">Midfield
+                                    <input type="checkbox" name="positionplay" id="position">Goalkeeper
+                                </div>
+                            </label>
+                    </div>
+                    <div class="positionwantq">
+                        <p class="greenques">What position(s) do you want to play? <span class="nobold"> (check all that apply)</span></p>
+                            <label  class="positionwat" for="positionwant">
+                                <div class="aposition">
+                                    <input type="checkbox" name="positionplay" id="positionwant" >Forward
+                                    <input type="checkbox" name="positionplay" id="positionwant">Defense
+                                </div>
+                                <div class="bposition">
+                                    <input type="checkbox" name="positionplay" id="positionwant">Midfield
+                                    <input type="checkbox" name="positionplay" id="positionwant">Goalkeeper
+                                </div>
+                            </label>
+                    </div>
+                
+                <div class="uniform">
+                    <div class="haveuniform">
+                        <label for="uniform">
+                            <input type="checkbox" name="uniform" id="uniform"> Already have an uniform
+                        </label>
+                    </div>
+                <div class="sizes">
+                        <div class="jersey">
+
+                            <label class="labelschool" for="jersey"><span class="stylegreen1">Jersey Size</span></label> 
+                                        <div class="a">
+                                                <div>
+                                                    <input type="radio" name="jersey" id="jersey" >Youth Small
+                                                </div>
+                                                <div>
+                                                    <input type="radio" name="jersey" id="jersey">Youth Medium
+                                                </div>
+                                                <div>
+                                                    <input type="radio" name="jersey" id="jersey">Youth Large
+                                                </div>
+                                                <div>
+                                                    <input type="radio" name="jersey" id="jersey">Small
+                                                </div>
+                                            </div>
+                                            <div class="b">
+                                                <div>
+                                                    <input type="radio" name="jersey" id="jersey">Medium
+                                                </div>
+                                                <div>
+                                                    <input type="radio" name="jersey" id="jersey">Large
+                                                </div>
+                                                <div>
+                                                    <input type="radio" name="jersey" id="jersey">Extra-Large
+                                                </div>
+                                            </div>
+                                        
+                        </div>
+                        <div class="shorts">
+                            <label class="labelschool" for="shorts"><span class="stylegreen1">Shorts Size</span></label> 
+                                            <div class="a">
+                                                <div>
+                                                    <input type="radio" name="shorts" id="shorts" >Youth Small
+                                                </div>
+                                                <div>
+                                                    <input type="radio" name="shorts" id="shorts">Youth Medium
+                                                </div>
+                                                <div>
+                                                    <input type="radio" name="shorts" id="shorts">Youth Large
+                                                </div>
+                                                <div>
+                                                    <input type="radio" name="shorts" id="shorts">Small
+                                                </div>
+                                            </div>
+                                            <div class="b">
+                                                <div>
+                                                    <input type="radio" name="shorts" id="shorts">Medium
+                                                </div>
+                                                <div>
+                                                    <input type="radio" name="shorts" id="shorts">Large
+                                                </div>
+                                                <div>
+                                                    <input type="radio" name="shorts" id="shorts">Extra-Large
+                                                </div>
+                                            </div> 
+                      </div>       
+                    </div>
+                </div>
+                <div class="permission">
+                    <p class="pformunderline">Permission to Play</p>    
+                        <div class="text">
+                               <p class="ppermission"> I, the parent or guardian of the minor registrant, agree that the registrant and I will abide by all the rules of the Northside Youth Soccer League (NYSL). In recognizing the possibility of physical injury associated with soccer and in consideration for the “League” accepting the registrant for its soccer programs and activities, I hereby release, discharge, and/or otherwise indemnify NYSL, their    employees and associated personnel and volunteers, including the facilities used for practices and games, against any claim by or   on behalf of the registrant as a result of the registrant’s participation in the program and/or being transported to or from NYSL sponsored activities, which transportation.</p>
+                            <p class="ppermission">By enterting my name and date below, I hereby agree and authorize the above.</p>  
+                        </div>
+                        <div class="consent">
+                            <div class="consentname">
+                                <label for="namepermission">Name and Surname
+                                    <input type="text" name="namepermission" id="namepermission" placeholder="Name Surname" required> 
+                                </label>
+                            </div>
+                            <div class="consentdate">
+                                <label for="datetoday">Date
+                                    <input type="date" name="datetoday" id="datetoday" required>
+                                </label>
+                            </div>
+                        </div>
+                        <div class="consentcheck">
+                                <label class="checkboxagree" for="checkboxagree">
+                                    <input type="checkbox" name="checkbox" value="check" id="checkboxagree" required/> I have read and agree to the Terms and Conditions to play.
+                                </label>
+                        </div>  
+                        <div class="submit">
+                                <input type="submit" name="submit" id="submit" value="Submit">
+                        </div>
+                </div>
+            </form>
+         </div>
+        <img src="images/football.png" id="square1"> 
+        </div>
+    </div>
+    </body>
+     <footer>
+         <a href="#top"><img class="backtop" src="images/back-to-top-button.png"></a>
+     </footer>  
+</html>

@@ -1,0 +1,1056 @@
+.evenwts td{
+    background-color: white;
+}
+.submitform th{
+    text-align: center;
+    width:50%;
+}
+.table1 th, .table td{
+   background-color: #01161d;
+    color:white;
+    text-transform: none;
+}
+footer {
+    margin-top: 2%;
+    display: flex;
+    flex-direction:row-reverse;
+}
+
+*{
+    margin:0;
+    padding: 0;
+    font-family: "Verdana", serif; 
+}
+.grid {
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
+}
+
+.imagenorthname {
+    grid-column-start: 1;
+    grid-column-end: 6;
+    width: 100%;   
+}
+
+
+.name {
+    grid-column: 1/6;
+    padding: 5px 0 5px 0;
+    letter-spacing: 2px;
+    width: 100%;
+    background-color:#05242d;
+    text-transform: uppercase;
+    font-family: "trebuchet MS";
+    text-align: center;
+    font-size: 3em;
+    color: white  
+}
+
+.namecurrentpag {
+    grid-column: 1/6;
+    width: 100%;
+}
+
+.navpag {
+   grid-column: 1/6;
+    color: white;
+    background-color:  #A4FF4A;
+    opacity: 1;
+    text-align: center;
+    padding: 5px 0 5px 0;
+    letter-spacing: 2px;
+    width: 100%;
+    text-transform: uppercase;
+}
+
+.nav {
+    grid-column: 1/6;
+    text-align: center;
+    background-color: #01161d;
+    width: 100%;
+    color: white;
+    padding: 8px 0;
+    border-left: 0;
+    border-right: 0;
+    font-family: "trebuchet MS", sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.nav ul {
+    list-style-type: none;
+ 
+}
+.nav li {
+    display: inline;
+    padding: 8px 10px;   
+   
+}
+
+.nav li:hover {
+    background-color: #12414f;
+    border-top:2px solid #042833;
+    border-right:2px solid #0c6f8c;
+    border-bottom:0;
+    border-left:2px solid #042833;
+
+}
+.navlink{
+    text-decoration: none;
+    width: 100%;
+    color: white;
+}
+.navlink a{
+    width:135px;
+    padding: 3px 30px 3px 30px;
+}
+#activelink {
+    background-color: #A4FF4A;
+    padding-top: 10px;
+    color:#A4FF4A;
+}
+#activelink:hover {
+    border-top:0;
+    border-left:3px solid #9aff38;
+    border-bottom:0;
+    border-right:3px solid  #cefca1;
+    border-top:3px solid #9aff38;
+}
+.imagebanner3 {
+     grid-column-start: 1;
+    grid-column-end: 6;
+    width: 100%;
+    height:100%;
+   
+}
+
+#imagestyle3 {
+    width: 100%;
+    height:100%;
+}
+
+.content {
+    grid-column: 2/5;
+    min-height: 300px;
+    margin: 11% 0;
+   
+}
+
+#logostyle3 {
+    width: 15%;
+    top: 2%;
+    left: 3%;
+    z-index: 2;
+    position: absolute;
+    opacity: 0.9;
+}
+
+.form {
+    width:90%;
+    margin:auto;
+    height:100%;
+}
+form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+   z-index: 1;
+}
+.namesurname{
+    display: flex;
+    width:100%;
+    padding-bottom: 10px;
+    justify-content: space-between;
+    
+}
+.personalinfo{
+    display: flex;
+    flex-direction: column;
+    width:100%;
+      margin-bottom: 10px
+}
+
+.cityzip{
+     display: flex;
+    width:100%;
+    justify-content: space-between;
+    padding-bottom: 10px;
+}
+.birth {
+    display: flex;
+    width: 100%;
+    padding-bottom:10px;
+}
+.grade {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom:10px;
+}
+.conactguardian {
+    display:flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+    width: 100%;
+}
+.questions {
+    display: flex;
+    flex-direction: column;
+}
+.schoolsnear{
+     display: flex;
+   justify-content: space-between;
+    width:100%;
+}
+.firstschool{
+    width: 50%;
+    flex-wrap: wrap;
+  display: flex;
+}
+.a {
+    width: 50%;
+    font-size: 85%;
+
+}
+.b {
+    width: 50%;
+    font-size: 85%;
+}
+.uniform{
+    display: flex;
+    flex-direction: column;
+}
+.sizes{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding-bottom: 30px;
+}
+.jersey{
+    flex-wrap:wrap;
+        width:50%;
+    display: flex;
+}
+
+.shorts{
+    width: 50%;
+    flex-wrap: wrap;
+    display: flex;
+}
+.permission {
+    display:flex;
+    flex-direction: column;
+    font-size: 75%
+
+}
+.consent {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+    
+.guardianname{
+    padding-bottom: 10px;
+}
+
+.secondschool {
+    width: 50%;
+    flex-wrap: wrap;
+    display: flex;
+}
+
+.secondschool label {
+    width:100%;
+    
+}
+
+.shorts label {
+    width: 100%;
+}
+.jersey label{
+    width:100%;
+}
+.firstschool label {
+    width:100%;
+}
+label {
+    
+}
+
+input text{
+    
+}
+
+ 
+.street {
+    padding-bottom: 10px;
+}
+
+.gender {
+    padding-bottom:10px;
+    padding-left: 15px;
+}
+
+.pform {
+   
+}
+
+.labelschool {
+    font-size: 85%;
+    padding-left: 10px;
+    font-weight: bold;
+}
+
+.haveuniform {
+   padding: 25px 0 10px;
+}
+
+.pformunderline {
+     position: static;
+    padding: 0 0 10px 0;
+    margin: 0;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.submit {
+    padding: 10px 0;
+    display: flex;
+   flex-direction: row-reverse;
+    
+}
+
+.consentcheck {
+   padding: 20px 0;
+    justify-content: flex-end;
+}
+
+.ppermission {
+    position: static;
+    padding: 0 0 10px 0;
+    margin: 0;
+}
+
+.titleform h1{
+    text-align: center;
+    padding-bottom: 30px
+}
+
+.bposition {
+    font-size: 85%;
+}
+
+.aposition {
+    font-size: 85%;
+}
+label{
+    display: flex;
+    flex-grow: 1;
+}
+
+#playerlastname {
+    flex-grow: 1;
+}
+
+#playername {
+    flex-grow: 1;
+}
+
+#street {
+    flex-grow: 1;
+}
+input {
+    flex-grow: 1;
+   margin-left: 5px;
+}
+#uniform {
+    flex-grow: 0;
+}
+
+.namesurname label { 
+    flex-grow: 1;
+   
+}
+
+.playerlastname {
+    width: 49%;
+    
+}
+
+.address {
+    margin-top: 20px;
+    color: #3c3535;
+    font-style: italic;
+ 
+}
+
+.city {
+    width:49%;
+}
+
+.zip {
+    width: 49%;
+}
+
+.bday {
+    width: 49%;
+}
+
+.phoneguardian {
+    width: 49%;
+}
+
+.emailguardian {
+    width: 49%;
+}
+
+
+#position {
+    flex-grow: 0;
+}
+
+
+
+#submit {
+    flex-grow: 0;
+  display: inline-block;
+  padding: 5px 8px;
+  font-size: 20px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #01161d;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 6px #999;
+}
+
+#submit:hover {background-color: #3e8e41}
+
+#submit:active {
+  background-color: #3e8e41;
+  box-shadow: 0 3px #666;
+  transform: translateY(4px);
+}
+
+
+.checkboxagree {
+    flex-grow: 0;
+}
+
+#checkboxagree {
+    flex-grow: 0;
+}
+
+.consentname {
+    width: 49%;
+}
+
+.consentdate {
+    width: 49%;
+}
+
+.positionwat {
+    flex-grow: 0;
+    flex-direction:column;
+}
+
+.labelplay {
+    flex-grow: 0;
+    flex-direction: column;
+}
+
+.nobold {
+   font-weight: normal;
+}
+
+.labelgrade {
+    flex-grow: 0.2;    
+}
+
+#grade {
+    flex-grow: 0.2;
+    margin-left: 5px;
+   
+}
+
+.gameinfo h1{
+    text-align: center;
+    padding-bottom: 20px;
+    color: #01161d;
+}
+#month, #month2 {
+ 
+    padding-bottom: 10px;
+    text-transform: uppercase;
+    color: #033949;
+    letter-spacing: 2px;
+    
+}
+.august{
+    text-align: justify;
+}
+.september{
+    text-align: justify;
+    padding-top: 20px;
+}
+.content .info h1{
+  color: #01161d;
+   
+}
+#email{
+ width: 15%;
+ 
+}
+#phone{
+        width: 12%;
+
+}
+.contactus{
+    margin:4% 10% 0 10%;
+   
+}
+.info p{
+    padding: 10px 10px 40px 10px
+}
+.rules ol li li {
+    list-style-type: lower-alpha;
+}
+.rules ul li{
+    list-style-type: square
+}
+.inline h2,
+.inline p {
+    display: inline
+}
+#square li{
+    list-style-type: square;
+}
+#alpha li,
+#fifa #alpha li{
+    list-style-type: lower-alpha;
+}
+#whitecircle li{
+    list-style-type: circle;
+}
+#numeric li{
+    list-style-type:decimal;
+}
+#fifa h2,
+#fifa p{
+    display:inline;
+}
+.aligncentre {
+    text-align: center;
+    padding: 20px  ;
+    margin: 20px;
+      border: solid black 2px;
+    background-color: #01161d;
+    color: white;
+    
+    
+}
+li {
+    margin-left: 10px;
+    margin-top: 0em;
+}
+.rules{
+    padding: 20px 0;
+    border: solid black 2px;
+}
+.rules h2{
+    margin-bottom: 0em;
+}
+
+.rules ul{
+    margin-bottom: 0;
+    margin-top: 0em;
+}
+.rules li{
+    margin-bottom: 10px;
+}
+.rules li li{
+    margin-bottom: 0;
+}
+
+th {
+    text-decoration: underline;
+    text-align: left;
+}
+.table1 td:first-child {
+    text-align: center;
+}
+td, th {
+    padding:0 30px;
+}
+table{
+    margin-bottom: 30px;
+}
+.bold{
+    font-weight: bold;
+}
+footer{
+   
+    
+}
+.floatright{
+   
+}
+.floatleft{
+   
+}
+
+#phone{
+    
+}
+.callus{
+   
+}
+.directions {
+    grid-column: 2/3;
+    width:100%;
+}
+
+.maps {
+    grid-column: 3/5;
+    width:100%;
+    height: 100%;
+}
+
+.schoolname {
+    width: 100%;
+    font-size: 120%;
+    color:#05242d;
+    text-transform: uppercase;
+}
+.selecfirst {
+    flex-grow: 0.6;
+    width: 50%;
+    display: inline-block;
+    padding: 4px 4px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    /* color: #fff; */
+    background-color: #ffffff;
+    border-radius: 10px;
+
+}
+
+.selectwo {
+   flex-grow: 0.6;
+    width: 50%;
+    display: inline-block;
+    padding: 4px 4px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    /* color: #fff; */
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+.pform {
+    position: static;
+    padding: 10px 0 10px 0;
+    margin: 0;
+    font-weight: bold;
+}
+
+.labelschool {
+    font-size: 85%;
+    padding-bottom: 10px;
+    flex-grow: 0.6;
+    font-weight: bold;
+}
+
+
+
+.mapsaddress {
+    display:flex;
+    flex-direction: column;
+    align-content: space-between;
+    
+}
+
+.katzemainer {
+    display:flex;
+    justify-content: space-between;
+    
+    border-bottom: solid 1px;
+    padding: 30px;
+}
+
+.Greenbay {
+    display:flex;
+    justify-content: space-between;
+    border-bottom: solid 1px;
+    padding: 30px;
+}
+
+.Howard {
+    display:flex;
+    justify-content: space-between;
+     border-bottom: solid 1px;
+    padding: 30px;
+}
+
+.majorie {
+    display:flex;
+    justify-content: space-between;
+     border-bottom: solid 1px;
+    padding: 30px;
+}
+
+.north {
+    display:flex;
+    justify-content: space-between;
+     border-bottom: solid 1px;
+    padding: 30px;
+}
+
+.south {
+     display:flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+.adressschool {
+    display: flex;
+    flex-direction: column;
+      padding-right: 10px;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+.schoolname p {
+    width: 100%;
+    font-size: 120%;
+    color:cadetblue;
+}
+.locations {
+ 
+    text-align: center;
+    margin-bottom: 4%;
+    background-color: #01161d;
+    color: white;
+}
+
+#logobackground {
+position: fixed;
+    top: 19%;
+    width: 49%;
+    opacity: 0.2;
+    left: 25.5%;
+    z-index: -1;
+
+}
+
+.monthtable {
+  
+    text-transform:uppercase;
+    width: 160px;
+    text-align: center;
+    padding:2%;
+
+}
+
+.flip-container {
+	perspective: 1000px;
+}
+	
+	.flip-container:hover .flipper, .flip-container.hover .flipper {
+		transform: rotateY(180deg);
+        
+	}
+
+.flip-container, .front, .back {
+	width: 820px;
+	height: 610px;
+}
+
+
+.flipper {
+	transition: 0.5s;
+	transform-style: preserve-3d;
+
+	position: relative;
+}
+
+
+.front, .back {
+	backface-visibility: hidden;
+
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.flip-container {
+	position: relative;
+}
+
+	 .back {
+		transform: rotateX(180deg);
+	}
+
+	.flipper {
+		transform-origin: 100% 340px; 
+	}
+
+	.flip-container:hover .flipper {
+		transform: rotateX(-180deg);
+	}
+.flexi {
+    position:absolute;
+    top: 120%;
+    left:37%;
+}
+
+.conta {
+    padding-bottom:10%;
+}
+
+.rules1 {
+    padding: 25px 28px;
+  
+    
+}
+
+#logostyle31 {
+    width:80px;
+}
+
+#square1 {
+    
+                height: 35px;
+                width: 35px;
+                animation: moveSquare1 6s ;
+                -webkit-animation: moveSquare1 6s  ; /* Safari and Chrome */
+                position: absolute;
+                top:82.5%;
+                opacity:0.9;
+                left: 30%;
+                animation-fill-mode: forwards;
+              /*  background-image: url('football.jpg ')*/
+            }
+ 
+            @keyframes moveSquare1 {
+                0% { transform: rotate(0deg);}
+                100% {  left: 900px; transform: rotate(360deg);}
+            }
+ 
+            @-webkit-keyframes moveSquare1 {
+                0% {left: 0px; -webkit-transform: rotate(0deg);}
+                100% { left: 900px; -webkit-transform: rotate(360deg);}
+}
+
+
+.imageroll {
+    width:40px;
+    display: inline;
+}
+
+.textroll {
+    display:inline;
+}
+.evenwts th, 
+.evenwts td {
+    margin: 10px;
+    border: solid black 2px;
+    text-align: center;
+    width: 50%;
+    padding: 20px 20px;
+}
+
+#titleth {
+    width:100%;
+    padding: 5px 0;
+    text-decoration: none;
+    background-color: #01161d;
+    color: white;
+    text-transform: uppercase;
+
+}
+
+
+
+.evenwts {
+    border-collapse: collapse;
+    margin: 30px 0 0 0;
+    height: 100%;
+}
+
+.monthstab {
+    padding:10px 0;
+    background-color:#d6d6d6;
+    text-decoration: none;
+    color:black;
+}
+
+.italic2 {
+    font-style:italic ;
+    
+   
+}
+
+.table1 {
+     border-collapse: collapse;
+    margin-top: 5%;
+justify-content: center;
+    width: 100%;
+}
+.table1 th, 
+.table1 td {
+  
+    border: solid black 2px;
+    text-align: center;
+    text-decoration: none;
+   
+}
+.table1 td{
+    background-color: white;
+}
+.table1 td:nth-child(even)
+{
+    background-color: #d6d6d6;}
+.mapsandad {
+        border: solid 1px;
+    margin-bottom: 7%;
+   
+    margin-top: 7%;
+}
+
+.anyques {
+    margin-top:2%;
+   font-style: italic;
+}
+
+.gameinfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.parts {padding: 15px 0;
+    
+}
+.parts h1{
+    padding-bottom: 5px;
+}
+
+.submitform table {
+    justify-content: center;
+    border: solid 1px;
+    margin: auto;
+    width:50%;
+    border-collapse: collapse;
+   
+    
+}
+.submitform th, td{
+    border: solid 1px;
+     padding: 5px 5px;
+}
+.submitform th {
+    background-color: #033a4c;
+    color:white;
+    text-decoration: none;
+    text-transform:uppercase;
+}
+
+
+.tablesubmit {
+   
+}
+
+.contentsubmit {
+    margin: 6% 0;
+   
+}
+.contensubmit h1{
+    justify-content:center ;
+}
+
+.submitform tr:nth-child(even)
+{
+    background-color: #8891946b;
+}
+    
+
+
+.submith1 {
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 30px;
+    font-weight:100;
+}
+
+
+.icon {
+        width: 24px;
+    height: 24px;
+    padding: 0px 2px;
+}
+
+.stylegreen {
+display: inline-block;
+  padding: 5px 8px;
+  font-size: 15px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #01161d;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 3px #999;
+}
+
+.playername {
+   
+    width: 49%;
+
+}
+
+.stylegreen1 {
+     width: 50%;
+    flex-grow:1;
+    display: inline-block;
+    padding: 4px 4px;
+    /* cursor: pointer; */
+    text-align: center;
+    text-decoration: none;
+    /* outline: none; */
+    color: #fff;
+    background-color: #01161d;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 3px #999;
+   
+}
+
+.greenques {
+    display: inline-block;
+    padding: 4px 4px;
+    font-size: 15px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #01161d;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 3px #999;
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+.backtop {
+    width: 70px;
+    margin: 50px;
+   justify-content: right;
+}
